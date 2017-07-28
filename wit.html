@@ -1,0 +1,104 @@
+<!DOCTYPE hmtl>
+<head>
+<style>h1 {background-color: #8A2BE2;}
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+</style>
+<script>function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}</script>
+  <center><h1>Woman in Tech- Alia Masud</h1></center>
+  <style>
+    body {
+      background-image:
+        url("http://momsavesmoney.net/wp-content/uploads/2016/08/girls-who-code.png"),
+        url("http://momsavesmoney.net/wp-content/uploads/2016/08/girls-who-code.png");
+    }
+  </style>
+<body>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Bio</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Work Sample</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Key learning</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'Endangered Animals')">Hope for the future</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'How to Help')">Advice</button>
+  
+</div>
+</head>
+  
+<div id="London" class="tabcontent">
+  <h3>Bio</h3>
+  <p>My name is Alia Masud. I just graduated eighth grade from Morris Plains Borough School. I've always had interests in the STEM field, and recently, in computer science. I've alwyays loved tinkering around on my computer. I'm always creating something, and I love it. Like both my Girls Who Code teachers, I believe it is extremely important for women to take part in computer science and other STEM fields. We shouldn't have to prove ourselves as much as we do, but sometimes it is the only option for men to understand what we are capable of. I hope that one day I will be just like the women from the Woman in Tech posters hanging around our classroom. But until I am, I will strive to follow in their footsteps with persistence and courage.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Work Sample</h3>
+  <p>I have created many different types of code during my time with Girls Who Code. Besides from my final project that I'm currently working on with my group, I'd have to say that the Ubbi Dubbi translator project was probably my favorite. It gave us a chance to go on our silly side and be extra creative. Here is a link to the Liveweave that I did... http://liveweave.com/jzg1N1 </p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Key learning</h3>
+  <p>I learned a lot from teammates and teachers at Girls Who Code. I think my biggest mistake is not checking for semi-colons and commas in my code. And if you are missing even one of those, it can be the reason why your code isn't working. I have learned from one of the teachers here, Lotta, that is extremely important to look for missing commas and semi-colons, because the biggest reason why some of my code wouldn't work, were because of those.  </p>
+</div>
+ 
+<div id="Endangered Animals" class="tabcontent"
+  <h3>Hope for the future</h3>
+  <p>I hope in the future that I become a succesfull woman in tech, just like I said before. I want to actually make a differnce, and create something that will impact the people who get ignored. The people who get thrown to the side as if they are garbage, or aren't worth anyone's time. And I know that many people strive to be that person, but it never works out for them. I hope that is not the case for me. For years I have seen successfull women, making a change. And I have always thought to myself how much I would like to be like them. I want to be someone who people know, someone who people know will care about them. And all I can hope is that the fire that burns in my soul now, will not burn out as I grow.</p>
+  
+  <div id="How to Help" class="tabcontent"
+  <h3>Advice</h3>
+  <p>I don't have much advice to young women around the world, because I haven't lived long enough to give the advice that I would like to provide, but I think it is extremely important for women to understand that they don't have to be perfect. And yes, with all the prejudice and sexism in the world it seems as if perfect is the only way to prove themselves. But you don't have to prove yourself to anyone or anything. No one is perfect, everyone has made a mistake if they like to admit or not. It is okay to ask questions. In fact, asking questions are proving you brave. Braver than all the other men in the room with you. Proving them wrong. So don't be afraid to have imperfections and ask questions. It takes bravery to ask questions, and that proves to all the other men in the world that you are a forced to be reckoned with, and that you're not afraid. </p>
